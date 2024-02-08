@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <!--<link rel="preload" href="https://db.onlinewebfonts.com/c/5bf06596a053153248631d74f9fc4e28?family=Great+Vibes" as="font" type="font/woff2" crossorigin>-->
+  </head>
+
+
+
+  <!--<script src="scripts/includeHTML.js"></script>
+
+  <div w3-include-html="Big_Banner.html"></div> 
+
+  <script>
+  includeHTML();
+  </script>-->
+
+
+<img src="assets/complete_3.svg" style="width: 100%; margin-bottom: 8px;">
+<!--<div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>-->
+<body style="padding: 15px;">
+
+<div class="container" style="width: 100%; padding: 0;">
+    <div style="width: 100%; background-color: black; border-radius: 20px; height: 40px;">                                     
+        <div class="dropdown" style="height: 40px;">
+            <button class="btn dropdown-toggle" style="height: 40px; border-radius: 20px; border: 0; background-color: transparent; color: white; font-family: monospace; font-size:x-small;" type="button" data-toggle="dropdown">Tutorials
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">HTML</a></li>
+            <li><a tabindex="-1" href="#">CSS</a></li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                    <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </li>
+            </ul>
+                    
+        </div> 
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+
+</body>
+</html>
